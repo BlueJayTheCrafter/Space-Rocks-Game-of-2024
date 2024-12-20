@@ -1,4 +1,5 @@
 lives -= 1;
+score -= 2;
 
 instance_destroy();
 

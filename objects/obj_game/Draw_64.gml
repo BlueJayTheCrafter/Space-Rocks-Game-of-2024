@@ -1,5 +1,5 @@
 var _instructions = @"
-Score 1,000 points to win!
+Score 500 points to win!
 UP: move
 LEFT/RIGHT: change direction
 SPACE: shoot
