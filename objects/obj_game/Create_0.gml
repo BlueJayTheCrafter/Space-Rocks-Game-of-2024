@@ -1,4 +1,6 @@
-score = 470;
-lives = 1;
+score = 0;
+lives = 3;
 
 draw_set_font(fnt_text); 
+
+randomize();

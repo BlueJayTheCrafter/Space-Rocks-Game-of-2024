@@ -14,6 +14,7 @@
     {"name":"snd_background2","order":7,"path":"sounds/snd_background2/snd_background2.yy",},
     {"name":"snd_damaged","order":1,"path":"sounds/snd_damaged/snd_damaged.yy",},
     {"name":"snd_enter","order":2,"path":"sounds/snd_enter/snd_enter.yy",},
+    {"name":"snd_lose","order":8,"path":"sounds/snd_lose/snd_lose.yy",},
     {"name":"snd_shoot","order":5,"path":"sounds/snd_shoot/snd_shoot.yy",},
     {"name":"snd_win","order":3,"path":"sounds/snd_win/snd_win.yy",},
     {"name":"spr_asteroid_huge","order":3,"path":"sprites/spr_asteroid_huge/spr_asteroid_huge.yy",},

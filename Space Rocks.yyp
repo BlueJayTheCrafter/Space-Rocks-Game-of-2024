@@ -50,6 +50,7 @@
     {"id":{"name":"snd_damaged","path":"sounds/snd_damaged/snd_damaged.yy",},},
     {"id":{"name":"snd_death","path":"sounds/snd_death/snd_death.yy",},},
     {"id":{"name":"snd_enter","path":"sounds/snd_enter/snd_enter.yy",},},
+    {"id":{"name":"snd_lose","path":"sounds/snd_lose/snd_lose.yy",},},
     {"id":{"name":"snd_shoot","path":"sounds/snd_shoot/snd_shoot.yy",},},
     {"id":{"name":"snd_win","path":"sounds/snd_win/snd_win.yy",},},
     {"id":{"name":"spr_asteroid_huge","path":"sprites/spr_asteroid_huge/spr_asteroid_huge.yy",},},
