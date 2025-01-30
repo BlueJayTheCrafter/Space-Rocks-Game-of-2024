@@ -1,4 +1,4 @@
-if(keyboard_check_pressed(vk_enter)){
+ if(keyboard_check_pressed(vk_enter)){
 	audio_play_sound(snd_enter, 1, false)
 	switch(room){
 		case rm_start:
@@ -9,13 +9,16 @@ if(keyboard_check_pressed(vk_enter)){
 		case rm_gameover:
 			game_restart();
 			break;
+		
+		case rm_game:
+			break;		
 	}
 }
 
 if(room == rm_game){
 	if(score >= 1000){
 		room_goto(rm_win);
-		audio_stop_sound(snd_background2)
+		audio_stop_sound(snd_background2);
 		audio_play_sound(snd_win, 1, false);
 	}
 

@@ -7,8 +7,12 @@ SPACE: shoot
 SMALL ASTEROIDS = 20
 MEDIUM ASTEROIDS = 10
 hUGE ASTEROIDS = 5";
+
 switch(room){
 	case rm_game:
+	
+		draw_set_halign(fa_left);
+		
 		draw_text(20, 20, "SCORE: "+string(score));
 		draw_text(20, 40, "LIVES: "+string(lives));
 		break;
@@ -35,16 +39,16 @@ switch(room){
 			room_width/2, 200, "YOU WON!", 
 			3, 3, 0, c,c,c,c, 1
 		);
-		draw_text(
-			room_width/2, 300,
+		draw_text (
+			room_width/2, 400,
 			@"PRESS ENTER TO RESTART"
 		);
 		draw_text(
-			room_width/2, 325,
+			room_width/2, 425,
 			@"SCORE: "+string(score)
 		);
 		draw_text(
-			room_width/2, 350,
+			room_width/2, 450,
 			@"LIVES LEFT: "+string(lives)
 		);
 		draw_set_halign(fa_left);
@@ -66,5 +70,5 @@ switch(room){
 			@"PRESS ENTER TO RESTART"
 		);
 		draw_set_halign(fa_left);
-		break;	
+		break;
 }

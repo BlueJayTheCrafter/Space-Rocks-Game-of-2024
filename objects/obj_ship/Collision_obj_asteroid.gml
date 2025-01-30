@@ -5,7 +5,7 @@ with(obj_game){
 	alarm[1] = room_speed;		
 }
 
-audio_play_sound(snd_lose, 1, false);
+audio_play_sound(snd_death, 1, false);
 
 instance_destroy();
 
